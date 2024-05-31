@@ -1,4 +1,4 @@
-# Vite + React + TypeScript Starter (codestyle setup)
+# Vite + React + TypeScript Starter (codestyle setup + shared folder)
 
 ## 🏃‍♂️ Simple Start
 
