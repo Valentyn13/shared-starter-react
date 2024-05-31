@@ -1,0 +1,21 @@
+.polotno {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+@media (width <= 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}
+
+@media screen and (width <= 1200px) {
+    .container {
+        max-width: 970px;
+    }
+}

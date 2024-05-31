@@ -1,0 +1,30 @@
+.test {
+    position: relative;
+    width: 200px;
+    color: red;
+    border: 1px solid black;
+}
+
+.bem {
+    padding: 10px;
+
+    &__element {
+        color: blue;
+    }
+
+    color: rosybrown;
+
+    p {
+        a {
+            height: 20px;
+        }
+    }
+
+    &_modifier {
+        color: green;
+    }
+}
+
+.testVvlad2 {
+    color: green;
+}
