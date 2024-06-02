@@ -7,6 +7,8 @@ export {
 } from './enums/enums.ts';
 export {
     type HttpApiOptions,
+    type HttpApiResponse,
     type HttpMethod,
     type HttpOptions,
-    type ValueOf} from './types/types.ts';
+    type ValueOf,
+} from './types/types.ts';

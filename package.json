@@ -10,11 +10,11 @@
         "build": "tsc && vite build",
         "lint:fs": "ls-lint",
         "lint:type": "npx tsc --noEmit",
-        "lint:css": "npx stylelint \"*.scss\"",
-        "lint:js": "npx eslint \"*.{ts,tsx}\"",
-        "lint:css:fix": "npx stylelint \"*.scss\" --fix\"",
-        "lint:js:fix": "npx eslint \"*.{ts,tsx}\" --fix",
-        "lint:prettier:fix": "prettier --write \"*.{ts,tsx,json,md,scss,html,yml}\"",
+        "lint:css": "npx stylelint \"**/*.scss\"",
+        "lint:js": "npx eslint \"**/*.{ts,tsx}\"",
+        "lint:css:fix": "npx stylelint \"**/*.{css,scss}\" --fix",
+        "lint:js:fix": "npx eslint \"**/*.{ts,tsx}\" --fix",
+        "lint:prettier:fix": "prettier --write \"**/*.{ts,tsx,json,md,scss,html,yml}\"",
         "lint": "npm run lint:type && npm run lint:css && npm run lint:js && npm run lint:fs",
         "lint:fix": "npm run lint:css:fix && npm run lint:js:fix && npm run lint:prettier:fix"
     },
@@ -24,6 +24,7 @@
     },
     "dependencies": {
         "clsx": "^2.1.1",
+        "js-cookie": "^3.0.5",
         "react": "^18.2.0",
         "react-dom": "^18.2.0"
     },
@@ -31,6 +32,7 @@
         "@commitlint/cli": "^19.3.0",
         "@commitlint/config-conventional": "^19.2.2",
         "@ls-lint/ls-lint": "^2.2.3",
+        "@types/js-cookie": "^3.0.6",
         "@types/react": "^18.2.66",
         "@types/react-dom": "^18.2.22",
         "@typescript-eslint/eslint-plugin": "^7.2.0",
